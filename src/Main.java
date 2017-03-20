@@ -16,9 +16,6 @@ public class Main {
             if(validate.validateAge(input)){
                 System.out.println("That is a valid age");
             }
-            if(input.contains(".")){
-                System.out.println("Number has to be a integer");
-            }
         }
         catch (NumberFormatException nfe){
             System.out.println("That's not a number");
